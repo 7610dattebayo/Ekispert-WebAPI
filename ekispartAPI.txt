@@ -1,3 +1,5 @@
+Option Explicit
+
 'WebAPIへアクセス
 '拡張性を考慮し、WebAPIへのアクセスを共通化
 Private Function KickWebService(ByVal Api As String, ByVal Param As String) As String
